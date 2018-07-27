@@ -1,0 +1,41 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    padding: 10px;
+    border: 1px solid gray;   
+}
+
+.item1{    
+    display: flex;  
+    flex-basis: 400px; height: 400px;  
+    justify-content: center;
+    align-items: center; 
+    background: blue;
+}
+
+.item2{
+    display: flex;  
+    flex-basis: 300px; height: 300px;   
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+}
+
+.item3{   
+    flex-basis: 200px; height: 200px;  
+    background: red;
+}
+
+
+

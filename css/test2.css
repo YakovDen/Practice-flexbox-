@@ -1,0 +1,67 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* .content{    
+    display: flex;    
+} */
+
+.row, .item9{
+    display: flex;  
+  
+}
+
+.row div{
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.item1, .item2, .item3, .item4,
+.item5, .item6, .item7, .item8,
+.item9{
+    flex-basis: 80px; height: 80px;         
+    /* flex-basis: 100px; */
+    background: yellow;
+}
+
+.item1, .item9{
+    background: green;
+}
+.item1{
+    flex: 1;
+}
+.item2{
+    flex: 1;   
+}
+.item3{
+    flex: 1;
+}
+.item4{
+    flex: 1;
+}
+.item5{
+    flex: 1;
+}
+.item6{
+    flex: 1;
+}
+.item7{
+    flex: 1;
+}
+.item8{
+    flex: 1;
+}
+.item9{
+    flex: 9;
+}
+.content{
+    flex-direction: column;
+}

@@ -1,0 +1,42 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;    
+    padding: 0 1px;
+    overflow: hidden;
+}
+
+.row{    
+    display: flex; 
+    min-height: 800px;   
+    justify-content: space-between;    
+}
+
+.row div{
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.square1,.square2,.square3,.square4,.square5{
+flex-basis: 100px; height:100px;
+/* flex-basis: 15%;
+width: 25%;
+height: 100px; */
+text-align: center;
+background: yellow;
+}
+
+.square1, .square5{
+    align-self: flex-end;
+    justify-content: space-around;
+}
+
+.square2, .square4{
+    align-self: center;
+    justify-content:space-between;
+}
